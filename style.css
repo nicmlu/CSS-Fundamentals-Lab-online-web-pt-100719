@@ -4,7 +4,9 @@ body {
   margin: 0;
 }
 
-header {text-align: center;}
+header {
+  text-align: center;
+}
 
 .center {
   display: block;
@@ -13,14 +15,31 @@ header {text-align: center;}
   width: 50%;
 }
 
-.pad {
+.text {
   margin-left: 10px;
   margin-right: 10px;
   background-color: grey;
 }
 
-figcaption {text-align: center; font-size: 15px;}
+figcaption {
+  text-align: center; 
+  font-size: 15px;
+}
 
-#featured_property p {width: 800px; text-align: center;}
+#featured-property{
+  text-align: center;
+  justify-content: center;
+}
 
-#details div { display: block; float: left; background-color: red; text-align: center; width: 25%;}
+#featured-property p{
+  display: inline-block;
+  width:50%;
+}
+
+#details div {
+  display: block; 
+  float: left; 
+  background-color: red; 
+  text-align: center; 
+  width: 25%;
+}
