@@ -31,4 +31,10 @@ figcaption {text-align: center; font-size: 15px;}
   width:50%;
 }
 
-#details div {display: block; float: left; background-color: red; text-align: center; width: 25%;}
+#details div {
+  display: block; 
+  float: left; 
+  background-color: red; 
+  text-align: center; 
+  width: 25%;
+}
