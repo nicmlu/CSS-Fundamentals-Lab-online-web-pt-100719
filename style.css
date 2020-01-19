@@ -19,7 +19,10 @@ header {text-align: center;}
   background-color: grey;
 }
 
-figcaption {text-align: center; font-size: 15px;}
+figcaption {
+  text-align: center; 
+  font-size: 15px;
+}
 
 #featured-property{
   text-align: center;
