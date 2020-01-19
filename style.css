@@ -21,6 +21,14 @@ header {text-align: center;}
 
 figcaption {text-align: center; font-size: 15px;}
 
-#featured_property {width: 800px; text-align: center;}
+#featured-property{
+  text-align: center;
+  justify-content: center;
+}
+
+#featured-property p{
+  display: inline-block;
+  width:50%;
+}
 
 #details div {display: block; float: left; background-color: red; text-align: center; width: 25%;}
